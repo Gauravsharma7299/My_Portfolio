@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script src="index.js"></script>
+     <script src="https://code.jquery.com/jquery-3.6.4.js"></script> 
+    <script src="typed.umd.js"></script>
+    
+</head>
+<body>
+    <header id="headers">
+    <nav>
+        <div class="logo"><p>Port<span id="logo" style="color: #e74c3c;"></span> </p>  </div>
+        <div class="menu">
+            <ul>
+            <li><a href="#headers"> HOME</a> 
+            <a href="#about"> ABOUT</a>
+            <a href="#skills"> SKILLS</a>
+            <a href="#services"> SERVICES</a>
+            <a href="#contact"> CONTACT US</a> 
+            </li></ul>
+            
+        </div>
+        </nav>
+        <div class="text">
+            <p>Hello, I am</p>
+            <h1>Gaurav Sharma</h1>
+            <p>And I am a  <span id="ani" style="color: #f42912;"></span></p>
+            <button class="c-btn" id="hireme_btn">Hire me</button>
+        </div>
+        
+        
+    </header>
+    <section id="sidenav">
+        <img src="menubar.png" alt="" id="menubar">
+        <ul>
+            <li><a href="#headers"> HOME</a> 
+            <a href="#about"> ABOUT</a>
+            <a href="#skills"> SKILLS</a>
+            <a href="#services"> SERVICES</a>
+            <a href="#contact"> CONTACT US</a> 
+            </li></ul>
+    </section>
+    <section id="about">
+        <div class="section-info">
+            <h1>About me</h1>
+            <p>who i am?</p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="about_us.jpg" alt="">
+            </div>
+            <div class="about-right-col">
+                <p id="p-title"> Hello, I'm Gaurav & <span id="ani2" style="color: #e74c3c;"></span></p>
+                <p>Hi, I'm  a front-end web developer with 6 Months of experience in creating beautiful and functional websites. I have a passion for clean, modern design and user-friendly interfaces, and I love to tackle new challenges in the ever-evolving world of web development.
+
+                    My expertise includes HTML, CSS, JavaScript, and  I'm also skilled in responsive design, cross-browser compatibility, and optimizing website performance. I'm constantly learning and experimenting with new technologies to stay up-to-date with the latest trends and best practices.
+                    
+                    When working on a project, I prioritize communication and collaboration with my mentor to ensure that their vision is brought to life. I take pride in delivering high-quality work that exceeds expectations and creates a positive user experience.
+                    
+                    In my free time, I enjoy exploring new coding techniques, attending tech webinars, and staying active through  yoga.
+                    
+                    If you're interested in working together or just want to say hi, feel free to contact me. I'm always excited to connect with other developers.</p>
+                <button id="download_cv" class="c-btn"  style="margin-top: 20px; border-radius: 8px;">
+                    <a href="https://drive.google.com/file/d/1TzMy44g2O_CO6eim428xraCWT3dbV7Me/view?usp=sharing" target="_blank">Download CV</a> </button>
+            </div>
+            
+
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-info">
+            <h1>Skill's</h1>
+            <p>who i am?</p>
+        </div>
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p><span style="color: aqua;"> HTML:</span>  I have experience in creating well-structured, semantic HTML code that is optimized for accessibility.
+                    <br>
+
+                    <span style="color: aqua;"> CSS: </span> skilled in styling web pages using CSS, including creating responsive designs and using CSS frameworks like Bootstrap.
+                    <br>
+                    
+                    <span style="color: aqua;">JavaScript: </span> Have a good understanding of JavaScript and its various libraries and frameworks like React, and can use it to create dynamic and interactive web pages.<br>
+                    
+                    <span style="color: aqua;">Flask: </span>   Have a basic understanding of Flask<br>
+                    
+                    <span style="color: aqua;">Jinja template: </span>     Have experience using Jinja templates, a templating engine for Python, to create dynamic HTML pages and automate repetitive tasks.<br>
+                    
+                    <span style="color: aqua;">Java:  </span>    good understanding of Java, including its syntax and object-oriented programming principles.<br>
+                    
+                    <span style="color: aqua;"> Android development:  </span>   In college Project I have done many projects in Android development .Projects are on my github ,link in Resume , including designing UI layouts, working with different Android components, and using third-party libraries and APIs.<br>
+                    
+                    <span style="color: aqua;">  Web development: </span>     comprehensive understanding of web development, including creating responsive designs, optimizing website performance.<br>
+                    
+                    <span style="color: aqua;"> Bootstrap: </span>   skilled in using Bootstrap, a popular CSS framework, to create modern and responsive web designs.</p>
+                <!-- <button class="c-btn">Read more</button> -->
+            </div>
+            <div class="skills-right-col">
+                <div class="progress-div">
+                <p><span>HTML</span><br>
+                  <progress value="90" max="100"></progress>
+                  <span>90%</span>
+                </p>
+                <p><span>Css</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                  </p>
+                  <p><span>Java Script</span><br>
+                    <progress value="50" max="100"></progress>
+                    <span>50%</span>
+                  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="section-info">
+            <h1>Services</h1>
+            <p>what we Provide</p>
+        </div>
+        <div class="services-row">
+            <div class="services-box " data-tilt>
+                <img src="responsive_design.jpg" alt="">
+                <h1> Responsive web design</h1>
+                <p>Creating websites that look great on all devices, from desktops to mobile phones.</p>
+            </div>
+            <div class="services-box"data-tilt>
+                <img src="front_end.jpg" alt="">
+                <h1>Front-end development</h1>
+                <p>Building the visual and interactive components of websites using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="custom_web.jpg" alt="">
+                <h1>Custom web development</h1>
+                <p> If you offer custom web development services, you can showcase your ability to create unique and tailored web solutions that meet your clients' specific needs.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-info" style="color: white;">
+            <h1>Contact us</h1>
+            <p style="color: black;">We are Available</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="b3.png" alt="">
+            </div>
+            <div class="contact-right-col">
+                
+                <form action="">
+                    <h2>Connect with us</h2>
+                    <input type="text" name="" placeholder="Name">
+                    <input type="email" name="" placeholder="E-mail">
+                    <br>
+                    <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea><br>
+                    <button class="c-btn"> Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Developed by Gaurav Sharma</h2>
+        <!-- <img src="icon.png" alt="" width="100px"> -->
+    </section>
+    <script src="jquery.ripples-min.js"></script>
+   <script>
+    jQuery(document).ready(function(){
+        $('section').ripples({
+  dropRadius: 20,
+  perturbance: 0.01,
+  
+});
+    });
+   </script> 
+   <script>
+    var Portfolio = new Typed('#logo', {
+  strings: ["folio"],
+  typeSpeed: 100,
+  backSpeed:100,
+  loop:true,
+});
+   </script>
+   <script>
+    var typed = new Typed('#ani', {
+  strings: ["Front end Developer", "Android developer"],
+  typeSpeed: 100,
+  backSpeed:100,
+  loop:true,
+});
+   </script>
+   <script>
+    var typeds = new Typed('#ani2', {
+  strings: ["Front end Developer", "Android developer"],
+  typeSpeed: 100,
+  backSpeed:100,
+  loop:true,
+});
+   </script>
+   <script src="tilt.jquery.min.js"></script>
+   <script type="text/javascript">
+
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+if (this.hash !== "") {
+     event.preventDefault();
+     var hash = this.hash;
+    $('html, body').animate({
+    scrollTop: $(hash).offset().top
+    }, 800, function(){
+   window.location.hash = hash;
+      });
+    } 
+  });
+});
+
+   </script>
+  <script>
+    var menu=document.getElementById("menubar");
+    var Side_nav=document.getElementById("sidenav");
+    Side_nav.style.width="0px";
+    menu.onclick=function(){
+        if(Side_nav.style.width=="0px"){
+            Side_nav.style.width="250px";
+        }
+        else{
+            Side_nav.style.width="0px";
+        }
+    }
+  </script>
+  <script>
+    var sections=document.getElementById("about");
+    var Side_navs=document.getElementById("sidenav");
+    Side_navs.style.width="0px";
+    sections.onclick=function(){
+        if(Side_navs.style.width=="0px"){
+            Side_navs.style.width="250px";
+        }
+        else{
+            Side_navs.style.width="0px";
+        }
+    }
+  </script>
+   <script>
+    var section_services=document.getElementById("services");
+    var Side_navss=document.getElementById("sidenav");
+    Side_navss.style.width="0px";
+    section_services.onclick=function(){
+        if(Side_navss.style.width=="0px"){
+            Side_navss.style.width="250px";
+        }
+        else{
+            Side_navss.style.width="0px";
+        }
+    }
+  </script> 
+  <script>
+    const scrollBtn = document.querySelector('#hireme_btn');
+  const targetSection = document.querySelector('#contact');
+  
+  scrollBtn.addEventListener('click', () => {
+    targetSection.scrollIntoView({ behavior: 'smooth' });
+  });
+  </script>
+  
+</body>
+</html>

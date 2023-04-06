@@ -1,0 +1,119 @@
+@media  screen and (max-width:1024px){
+    header{
+        background: url('solid-concrete-wall-textured-backdrop.jpg') ;
+       background-size: cover;
+
+    }
+    .menu a{
+        display: none;
+    }
+    .logo{
+        color: white;
+        font-size: 50px;
+        padding-left: 100px;
+        letter-spacing: 5px;
+    
+    }
+    #menubar{
+        position: fixed;
+        top: 10px;
+        left: 30px;
+        width: 50px;
+        cursor: pointer;
+    }
+    #sidenav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 0px;
+        height: 100vh;
+        background: rgba(0, 0, 0,0.8);
+        padding: 100px 0px;
+        transition: 0.4s;
+        display: block;
+
+    }
+    #sidenav a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin: 10px 30px;
+        padding: 20px;
+        display: block;
+    }
+    #sidenav a:hover{
+        background: #e74c3c;
+        transition: 0.4s;
+    }
+    .text{
+      margin-left: 50px;
+        max-width: 450px;
+    }
+    .about-left-col{
+        flex-basis: 100% ;
+    }
+    .about-left-col img{
+        width: 100%;
+        padding: 50px;
+    }
+    .about-right-col{
+        flex-basis: 100% ;
+    }
+    .skills-left-col{
+        flex-basis: 100%;
+        text-align: justify;
+    }
+    
+    .skills-right-col{
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+    progress{
+        width: 80%;
+    }
+    .progress-div{ 
+        width: 100%;
+        justify-content: center;
+       
+    }
+    .progress-div p{
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding-left:20px ;
+        text-align: justify;
+    }
+    .services-box{
+        flex-basis: 100%;
+        margin-top: 20px;
+       
+    }
+    
+    .services-box img{
+        width: 50%;
+    }
+    .contact-row{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .contact-left-col{
+        flex-basis: 100%;
+    
+    } 
+    .contact-right-col{
+        flex-basis: 100%;
+        text-align: center;
+    
+    }
+    .contact-right-col form input{ 
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .contact-right-col form textarea{
+        width: 100%;
+        padding: 10px;
+    }
+   
+}
